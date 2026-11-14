@@ -1,0 +1,223 @@
+1
+00:00:00,670 --> 00:00:03,702
+Here's a ticket asking
+the payment service to
+
+2
+00:00:03,702 --> 00:00:06,733
+retry failed transactions
+exactly five times.
+
+3
+00:00:06,733 --> 00:00:11,449
+Two clicks away, the team's accepted
+decision says no more than three.
+
+4
+00:00:11,449 --> 00:00:13,470
+Nobody notices until it ships.
+
+5
+00:00:17,260 --> 00:00:20,084
+Tether is a Forge app
+for Jira and Confluence.
+
+6
+00:00:20,084 --> 00:00:23,461
+It checks a ticket's technical
+requirements against the
+
+7
+00:00:23,461 --> 00:00:27,820
+decisions your team already recorded,
+and shows you the exact evidence.
+
+8
+00:00:31,540 --> 00:00:37,275
+To make this easy to test, an admin grants
+access once, then clicks Load demo data.
+
+9
+00:00:37,275 --> 00:00:40,039
+In about a minute, Tether creates a demo
+
+10
+00:00:40,039 --> 00:00:43,632
+project, a decision space
+and thirty sample tickets.
+
+11
+00:00:43,632 --> 00:00:45,290
+We've sped that part up.
+
+12
+00:00:48,660 --> 00:00:51,822
+On PAY-1, I click Check
+implementation context.
+
+13
+00:00:51,822 --> 00:00:56,060
+The check runs in a background
+queue, so I've trimmed the wait.
+
+14
+00:00:58,100 --> 00:01:01,588
+Conflict. On the left, the
+sentence from the ticket.
+
+15
+00:01:01,588 --> 00:01:06,283
+On the right, the sentence from the
+decision, with a link to the page.
+
+16
+00:01:06,283 --> 00:01:10,240
+Both quotes are checked word
+for word against their source.
+
+17
+00:01:12,180 --> 00:01:14,821
+It also tells you what
+it didn't check: one
+
+18
+00:01:14,821 --> 00:01:17,584
+of two requirements had
+no matching decision.
+
+19
+00:01:17,584 --> 00:01:19,918
+And it shows why this decision counts.
+
+20
+00:01:19,918 --> 00:01:24,770
+It's accepted, it applies to the payment
+service, and it replaced an older one.
+
+21
+00:01:27,530 --> 00:01:30,137
+Not every different number is a conflict.
+
+22
+00:01:30,137 --> 00:01:34,270
+Four attempts, including the first,
+is the same as three retries.
+
+23
+00:01:34,270 --> 00:01:37,640
+Tether does that arithmetic
+in code, not in a prompt.
+
+24
+00:01:39,160 --> 00:01:42,810
+When the counting is unclear, it says
+Needs review instead of guessing.
+
+25
+00:01:43,990 --> 00:01:48,089
+And when part of a ticket has no
+decision behind it, it says so.
+
+26
+00:01:48,089 --> 00:01:51,100
+Insufficient evidence is
+never shown as a pass.
+
+27
+00:01:53,540 --> 00:01:56,385
+Tether never edits the
+ticket or the decision.
+
+28
+00:01:56,385 --> 00:01:59,973
+If you want to follow up, it
+drafts a clarification issue.
+
+29
+00:01:59,973 --> 00:02:03,003
+You review it, change what
+you like, and confirm.
+
+30
+00:02:03,003 --> 00:02:05,230
+It's created as you, linked to both.
+
+31
+00:02:09,550 --> 00:02:10,628
+Decisions change.
+
+32
+00:02:10,628 --> 00:02:15,196
+When someone edits the retry decision,
+the next time anyone opens PAY-1,
+
+33
+00:02:15,196 --> 00:02:20,080
+Tether flags that a decision it relied
+on has changed, and offers a re-check.
+
+34
+00:02:24,560 --> 00:02:26,670
+The same check runs inside Rovo.
+
+35
+00:02:26,670 --> 00:02:31,287
+The Tether agent uses our actions
+and a skill, so you can ask in chat.
+
+36
+00:02:31,287 --> 00:02:34,056
+Here it reaches the same result for PAY-2:
+
+37
+00:02:34,056 --> 00:02:37,090
+one requirement checked,
+one with no decision.
+
+38
+00:02:41,560 --> 00:02:44,094
+Tether also exposes its tools over MCP.
+
+39
+00:02:44,094 --> 00:02:47,408
+Here, Claude Code calls
+check issue consistency and
+
+40
+00:02:47,408 --> 00:02:50,656
+gets the same conflict,
+with the quotes and links.
+
+41
+00:02:50,656 --> 00:02:53,580
+This one is recorded on
+our development site.
+
+42
+00:02:57,460 --> 00:03:01,759
+To find decisions linked to a
+ticket, Tether asks Teamwork Graph.
+
+43
+00:03:01,759 --> 00:03:04,933
+Everything runs on Forge,
+and the language model
+
+44
+00:03:04,933 --> 00:03:08,240
+calls use Forge LLMs, so
+nothing leaves Atlassian.
+
+45
+00:03:11,470 --> 00:03:15,575
+On our thirty team-written test
+scenarios, all thirty pass.
+
+46
+00:03:15,575 --> 00:03:20,375
+That shows it handles the cases we
+designed, not real-world accuracy.
+
+47
+00:03:20,375 --> 00:03:22,810
+Tether: tickets that stay tethered.
