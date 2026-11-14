@@ -28,6 +28,12 @@
   - Version 3.1.0 media: screenshots 4 (Rovo agent) and 5 (settings) with captions.
   - Version 3.1.0 links: documentation = README, own terms (not the Bonterms standard
     agreement) = `TERMS.md`.
+- Version 3.2.0 (created by the 3.2.0 production deploy, the newest version, so the one the
+  listing shows) got the same details, highlights, media and links on 14 Nov. Any later
+  production deploy of Tether for Marketplace creates a new blank version: copy the content
+  into it before or after submitting.
+- Checked 14 Nov after "submitted": the app still showed **Private** and "Versions pending
+  Marketplace approval" was empty, so the Public change had not gone through.
 - **Left for Đăng:** Details tab → Visibility → **Public** (submits the app for Atlassian
   approval; also make version 3.1.0 public if asked). Then paste the listing or review
   ticket link into `docs/DEVPOST.md` (Marketplace row) and `docs/SUBMISSION.md`.
