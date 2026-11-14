@@ -26,6 +26,13 @@ https://github.com/dngvmnh/Tether, YouTube video https://youtu.be/wQ1Kbe1WI_0 (p
 4. After Atlassian approves it, add the Marketplace listing:
    https://marketplace.atlassian.com/apps/1533276126 (returns "not found" until then).
 
+## Image gallery (Project Media)
+
+Upload in this order from `docs/devpost/gallery/` (all 1500x1000 JPG, 3:2, under 400 KB):
+`01-cover.jpg`, `02-conflict.jpg`, `03-needs-review.jpg`, `04-decision-changed.jpg`,
+`05-rovo-agent.jpg`, `06-settings.jpg`. Made from `docs/marketplace/assets/` screenshots
+with `docs/devpost/gallery-template.html` (headless Edge).
+
 ## Tagline
 
 Keeps tickets tethered to the engineering decisions your team already made.
