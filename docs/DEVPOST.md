@@ -19,8 +19,9 @@ https://github.com/dngvmnh/Tether, YouTube video https://youtu.be/wQ1Kbe1WI_0 (p
 
 ## "Try it out" links
 
-1. Install Tether (Jira + Confluence, Forge installation link): the full link in
-   `docs/SUBMISSION.md` (line 13, starts `https://developer.atlassian.com/console/install/07520459-...`).
+1. Install Tether: https://github.com/dngvmnh/Tether#try-it (the Forge install link is
+   over Devpost's 255-character limit, so this README section links to it in one click;
+   paste the full link from `docs/SUBMISSION.md` into the testing-instructions text).
 2. Source code: https://github.com/dngvmnh/Tether
 3. Demo video: https://youtu.be/wQ1Kbe1WI_0 (also goes in the separate video field).
 4. After Atlassian approves it, add the Marketplace listing:
