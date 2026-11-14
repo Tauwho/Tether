@@ -17,15 +17,20 @@
   09:37 UTC). 14 Nov: data residency, GDPR and CCPA answered and saved as a draft (residency
   Yes, all in-scope data inside Atlassian; in-scope = check reports and cached extractions,
   out-of-scope = account IDs; GDPR controller No, processor Yes; CCPA business No, service
-  provider Yes). **Đăng: open the tab, tick the consent box on the preview and click Submit
-  and publish** (publishes the privacy answers only; the app stays private).
-- Next, when Bảo's assets land (issue #3):
-  1. Details tab: upload logo 144×144 and banner 1120×548, Save.
-  2. Versions → **3.1.0** (`/manage/apps/1533276126/versions/3001000/details`): release
-     notes, description, 3 highlights with screenshots (text in `LISTING.md`). Version
-     3.1.0 was added automatically by Marketplace Hub; 3.0.0 is the first deploy.
-  3. Details tab → Visibility → **Public** = submit for Atlassian approval (Đăng).
-  4. Put the listing / review link in `docs/DEVPOST.md` (Marketplace row).
+  provider Yes). Đăng submitted the privacy answers on 14 Nov, 10:57 UTC; they are
+  **pending Atlassian approval** (support ticket linked on the tab).
+- 14 Nov, listing content done and saved (app still **private**):
+  - Details: logo 144×144 and banner 1120×548 uploaded.
+  - Version 3.1.0 details: license "Commercial - no charge", supported Yes, release summary,
+    "More details" and release notes.
+  - Version 3.1.0 highlights: layout "Highlight", 3 highlights (Evidence, not opinions /
+    Honest about uncertainty / Stays tethered) with screenshots 1-3 and captions.
+  - Version 3.1.0 media: screenshots 4 (Rovo agent) and 5 (settings) with captions.
+  - Version 3.1.0 links: documentation = README, own terms (not the Bonterms standard
+    agreement) = `TERMS.md`.
+- **Left for Đăng:** Details tab → Visibility → **Public** (submits the app for Atlassian
+  approval; also make version 3.1.0 public if asked). Then paste the listing or review
+  ticket link into `docs/DEVPOST.md` (Marketplace row) and `docs/SUBMISSION.md`.
 
 App: **Tether for Marketplace**, id `9cca0b82-9b9f-42f8-9049-5db82c3a263e`, owner Đăng.
 Production is deployed with the current `main` code (3.0.0, 14 Nov 2026, Runs on Atlassian
