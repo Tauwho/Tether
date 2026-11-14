@@ -160,7 +160,7 @@ link**. So:
 - [x] Judge instructions: see "Judge instructions (final)" above (14 Nov)
 - [x] Demo video < 5 min, public on YouTube: https://youtu.be/wQ1Kbe1WI_0 (3:25, uploaded 14 Nov; plan `docs/VIDEO.md`)
 - [x] Category: Apps for Software Teams (`docs/DEVPOST.md`)
-- [ ] Bonus prizes claimed, each with evidence: table in `docs/DEVPOST.md`; Marketplace link and video timestamps still to add
+- [x] Bonus prizes claimed, each with evidence: table in `docs/DEVPOST.md` (video timestamps added; Marketplace submitted 14 Nov, pending approval: https://marketplace.atlassian.com/apps/1533276126; add the review ticket link when it arrives)
 - [x] Explanation of how Forge + Jira + Confluence + Rovo + Teamwork Graph are used (`docs/DEVPOST.md`, "How we built it")
 - [x] Repo link, README with architecture (README "Architecture", 14 Nov)
 - [ ] Paste `docs/DEVPOST.md` into Devpost and submit (internal target Sat 19 Dec)

@@ -1,6 +1,10 @@
 # Submitting "Tether for Marketplace" (step by step)
 
 ## Status (14 Nov 2026)
+- **Submitted for approval 14 Nov** by Đăng through the "Make App Public" wizard on
+  version 3.2.0 (the Visibility box on the Details tab is locked; the wizard is the way).
+  The app shows "pending approval by Atlassian and cannot be edited"; 3.2.0 is PUBLIC.
+  Listing URL once approved: https://marketplace.atlassian.com/apps/1533276126. Review ticket link: to add when the email arrives.
 - Partner profile created; developer space "Tether" published as the Marketplace vendor.
 - Tether for Marketplace: distribution "Sharing with anyone" (Jira + Confluence), app
   details set (company, support, privacy, terms, personal data Yes).
