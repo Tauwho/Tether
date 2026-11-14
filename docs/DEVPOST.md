@@ -9,6 +9,14 @@ https://github.com/dngvmnh/Tether, YouTube video https://youtu.be/wQ1Kbe1WI_0 (p
 
 ---
 
+## General info (first Devpost page)
+
+- **Project name** (60 max, 37): Tether: Decision Consistency for Jira
+- **Elevator pitch** (200 max, 186): Tether checks Jira tickets against the engineering decisions your team recorded in Confluence and quotes the exact sentences that conflict. Works in the Jira panel, in Rovo and over MCP.
+- **Thumbnail** (JPG/PNG/GIF, 5 MB max, 3:2): `docs/devpost/thumbnail-1500x1000.jpg`
+  (1500x1000, 266 KB; source `docs/devpost/thumbnail.html`, panel crop from
+  `docs/marketplace/assets/screenshot-1-conflict.png`).
+
 ## Tagline
 
 Keeps tickets tethered to the engineering decisions your team already made.
