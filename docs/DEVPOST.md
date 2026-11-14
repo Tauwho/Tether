@@ -5,7 +5,7 @@ Bonus prizes claimed: **Best Agents**, **Best app with MCP**, **Best Teamwork Gr
 integration**, **Best Marketplace published app** (pending listing, see the end).
 
 Links to fill in on Devpost: install link (`docs/SUBMISSION.md`), public repo
-https://github.com/dngvmnh/Tether, YouTube video (not recorded yet).
+https://github.com/dngvmnh/Tether, YouTube video https://youtu.be/wQ1Kbe1WI_0 (public, 3:25).
 
 ---
 
@@ -144,9 +144,9 @@ zod, vitest
 
 | Prize | Evidence |
 |---|---|
-| Best Agents | Video S08 (Tether agent in Rovo on the judge site: PAY-2 → Insufficient evidence, 1 of 2, matching the panel). `manifest.yml` `rovo:agent` with 3 actions and the `decision-consistency` skill; `src/handlers/rovo.ts`; `prompts/tether-agent.md`. |
-| Best app with MCP | Video S09 (Claude Code calling `check-issue-consistency`, recorded on our development site). `manifest.yml` `rovo:mcp`; endpoint `https://mcp.atlassian.com/forge/07520459-db83-4ab5-b000-09c3c8095691`; open skill file `skills/decision-consistency/SKILL.md`. Site admins enable it at admin.atlassian.com → (site) → Connected apps → Tether → Details → Tools → "Expose tools to MCP-compatible apps". |
-| Best Teamwork Graph integration | Video S04/S10 (panel footer "1 page(s) linked to PAY-1 in Teamwork Graph"); Cypher above; `src/adapters/teamworkGraph.ts`; verified on the judge site and the dev site. |
+| Best Agents | Video [2:24](https://youtu.be/wQ1Kbe1WI_0?t=144) (Tether agent in Rovo on the judge site: PAY-2 → Insufficient evidence, 1 of 2, matching the panel). `manifest.yml` `rovo:agent` with 3 actions and the `decision-consistency` skill; `src/handlers/rovo.ts`; `prompts/tether-agent.md`. |
+| Best app with MCP | Video [2:41](https://youtu.be/wQ1Kbe1WI_0?t=161) (Claude Code calling `check-issue-consistency`, recorded on our development site). `manifest.yml` `rovo:mcp`; endpoint `https://mcp.atlassian.com/forge/07520459-db83-4ab5-b000-09c3c8095691`; open skill file `skills/decision-consistency/SKILL.md`. Site admins enable it at admin.atlassian.com → (site) → Connected apps → Tether → Details → Tools → "Expose tools to MCP-compatible apps". |
+| Best Teamwork Graph integration | Video [2:57](https://youtu.be/wQ1Kbe1WI_0?t=177) (panel footer "1 page(s) linked to PAY-1 in Teamwork Graph"); Cypher above; `src/adapters/teamworkGraph.ts`; verified on the judge site and the dev site. |
 | Best Marketplace published app | Listing or review ticket link: **to add** after submission of "Tether for Marketplace" (a separate registered app, because listed apps cannot be shared by installation link). |
 
 ## Notes for the description field

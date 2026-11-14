@@ -158,7 +158,7 @@ link**. So:
 ## Required
 - [x] Installation link (created, see above) tested on a **clean** site (not the dev site) for both Jira and Confluence (13 Nov, panel check; see "Clean-site test")
 - [x] Judge instructions: see "Judge instructions (final)" above (14 Nov)
-- [ ] Demo video < 5 min, public on YouTube (plan: `docs/VIDEO.md`, awaiting approval and recording)
+- [x] Demo video < 5 min, public on YouTube: https://youtu.be/wQ1Kbe1WI_0 (3:25, uploaded 14 Nov; plan `docs/VIDEO.md`)
 - [x] Category: Apps for Software Teams (`docs/DEVPOST.md`)
 - [ ] Bonus prizes claimed, each with evidence: table in `docs/DEVPOST.md`; Marketplace link and video timestamps still to add
 - [x] Explanation of how Forge + Jira + Confluence + Rovo + Teamwork Graph are used (`docs/DEVPOST.md`, "How we built it")
