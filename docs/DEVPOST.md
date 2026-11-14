@@ -17,6 +17,15 @@ https://github.com/dngvmnh/Tether, YouTube video https://youtu.be/wQ1Kbe1WI_0 (p
   (1500x1000, 266 KB; source `docs/devpost/thumbnail.html`, panel crop from
   `docs/marketplace/assets/screenshot-1-conflict.png`).
 
+## "Try it out" links
+
+1. Install Tether (Jira + Confluence, Forge installation link): the full link in
+   `docs/SUBMISSION.md` (line 13, starts `https://developer.atlassian.com/console/install/07520459-...`).
+2. Source code: https://github.com/dngvmnh/Tether
+3. Demo video: https://youtu.be/wQ1Kbe1WI_0 (also goes in the separate video field).
+4. After Atlassian approves it, add the Marketplace listing:
+   https://marketplace.atlassian.com/apps/1533276126 (returns "not found" until then).
+
 ## Tagline
 
 Keeps tickets tethered to the engineering decisions your team already made.
@@ -143,8 +152,7 @@ core logic is a pure function; most of our debugging time went into product boun
 
 ## Built with
 
-forge, jira, confluence, rovo, mcp, teamwork-graph, forge-llm, typescript, react, vite,
-zod, vitest
+forge, jira, confluence, rovo, mcp, teamwork-graph, forge-llm, typescript, react, vite, zod, vitest
 
 ---
 
